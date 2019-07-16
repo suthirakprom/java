@@ -8,5 +8,6 @@ public class t{
         String name = input.nextLine();
         System.out.println("Hello, "+ name);
         System.out.println("Nice to meet you");
+        System.out.println("Push");
     }
 }
