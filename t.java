@@ -10,7 +10,14 @@ public class t{
         System.out.println("Nice to meet you");
         System.out.println("did not fetch");
         System.out.println("Push");
+<<<<<<< HEAD
+
+=======
         System.out.println("After and after fetch");
+<<<<<<< HEAD
         System.out.println("Trying pull");
+=======
+>>>>>>> refs/remotes/origin/master
+>>>>>>> cfc40b6ad5c21ecb334ebec74b364a8094b467ad
     }
 }
