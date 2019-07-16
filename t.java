@@ -8,6 +8,10 @@ public class t{
         String name = input.nextLine();
         System.out.println("Hello, "+ name);
         System.out.println("Nice to meet you");
+<<<<<<< HEAD
         System.out.println("did not fetch");
+=======
+        System.out.println("Push");
+>>>>>>> refs/remotes/origin/master
     }
 }
