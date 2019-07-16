@@ -8,6 +8,7 @@ public class t{
         String name = input.nextLine();
         System.out.println("Hello, "+ name);
         System.out.println("Nice to meet you");
+        System.out.println("did not fetch");
         System.out.println("Push");
         System.out.println("After and after fetch");
     }
