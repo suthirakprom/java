@@ -9,9 +9,10 @@ public class treeSetWithFunctions {
         games.add("Kingdom Heart 3");
         games.add("Harry Potter");
         games.add("Minecraft"); 
+        games.add("Atom");
         System.out.println("My game collection: " + games);
         //print the size of the collection
-        System.out.println("I have " + games.size() + " games");
+        System.out.println("I have " + games.size() + " games.");
         //print games with contain function
         String game = "Minecraft";
         if(games.contains(game))
@@ -20,5 +21,9 @@ public class treeSetWithFunctions {
         } else {
             System.out.println("I do not have " + game + " in my collection.");
         }
+        //print the first item
+        System.out.println("The first item is " + games.first());
+        //print the last item
+        System.out.println("The last item is " + games.last());
      }
 }
