@@ -11,5 +11,13 @@ public class t{
         System.out.println("did not fetch");
         System.out.println("Push");
         System.out.println("After and after fetch");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        System.out.println("Trying pull");
+=======
+>>>>>>> refs/remotes/origin/master
+>>>>>>> cfc40b6ad5c21ecb334ebec74b364a8094b467ad
+>>>>>>> 3851efed33308eff66b6c468c8233055dc85997a
     }
 }
