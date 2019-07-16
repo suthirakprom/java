@@ -7,5 +7,6 @@ public class t{
         System.out.print("What is your name?");
         String name = input.nextLine();
         System.out.println("Hello, "+ name);
+        System.out.println("Nice to meet you");
     }
 }
