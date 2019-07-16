@@ -10,10 +10,6 @@ public class t{
         System.out.println("Nice to meet you");
         System.out.println("did not fetch");
         System.out.println("Push");
-<<<<<<< HEAD
-
-=======
         System.out.println("After and after fetch");
->>>>>>> refs/remotes/origin/master
     }
 }
