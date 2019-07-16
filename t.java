@@ -11,5 +11,6 @@ public class t{
         System.out.println("did not fetch");
         System.out.println("Push");
         System.out.println("After and after fetch");
+        System.out.println("Trying pull");
     }
 }
