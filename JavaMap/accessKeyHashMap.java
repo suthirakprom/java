@@ -31,5 +31,13 @@ public class accessKeyHashMap {
         } else {
             System.out.println("There is no one play " + myGame + ". Your game sucks.");
         }
+        //modify the value to an existing key
+        playerGame.put("JinJason", "Minecraft");
+        System.out.println("JinJason has now plays " + playerGame.get("JinJason") + ".");
+        //Call the key that was not found in the HashMap
+        System.out.println("Lisa plays " + playerGame.get("Lisa"));
+        //putting lisa in the HashMap
+        playerGame.put("Lisa", "Candy Crush");
+        System.out.println("Lisa plays " + playerGame.get("Lisa") + ".");
     }
 }
