@@ -13,5 +13,23 @@ public class accessKeyHashMap {
         int size = playerGame.size();
         System.out.println("There are " + size + " players and " 
             + size + " games.");
+        
+        String userName = "ZED"; 
+        //check if the key exist
+        if(playerGame.containsKey(userName))
+        {
+            String game = playerGame.get(userName);
+            System.out.println(userName + " plays " + game + ".");
+        } else {
+            System.out.println("Game details not found for player: " + userName);
+        }
+        //check if the value exist in a HashMap
+        String myGame = "OverWatch";
+        if(playerGame.containsValue(myGame))
+        {
+            System.out.println("There is a player who plays " + myGame);
+        } else {
+            System.out.println("There is no one play " + myGame + ". Your game sucks.");
+        }
     }
 }
