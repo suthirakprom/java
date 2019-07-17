@@ -11,7 +11,7 @@ public class removeKeyHashMap {
 
         System.out.println("Husband and Wife: " + husbandWife);
 
-        //remove a Ket from HashMap
+        //remove a Key from HashMap
         String husband = "Jack";
         String wife = husbandWife.remove(husband);
         System.out.println("The husband: " + husband + " and the wife: " + wife);
