@@ -10,6 +10,8 @@ public class keySetOrValue
         husbandWife.put("Mark", "Jenny");
 
         System.out.println("Husband and Wife: " + husbandWife);
+
+        //HashMap's entry
         Set<String> onlyHus = husbandWife.keySet();
         System.out.println("Husbands are: " + onlyHus);
         Collection<String> onlyWife = husbandWife.values();
